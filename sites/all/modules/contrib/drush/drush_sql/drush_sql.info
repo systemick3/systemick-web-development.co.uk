@@ -1,0 +1,13 @@
+name = Drush SQL commands
+description = Provides several tools for database query and management
+package = Drush
+dependencies[] = drush
+core = 7.x
+files[] = drush_sql.module
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "drush"
+datestamp = "1380571083"
+

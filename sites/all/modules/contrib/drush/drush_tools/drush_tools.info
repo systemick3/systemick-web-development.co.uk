@@ -1,0 +1,14 @@
+name = Drush toolbox
+description = Provides several tools that are aimed at site administrators and developers.
+package = Drush
+dependencies[] = drush
+core = 7.x
+files[] = drush_tools.module
+
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "drush"
+datestamp = "1380571083"
+

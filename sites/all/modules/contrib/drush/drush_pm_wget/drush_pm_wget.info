@@ -1,0 +1,15 @@
+name = Drush package manager wget support
+description = Allows drush to install and update modules using wget or curl.
+package = Drush
+dependencies[] = update
+dependencies[] = drush
+dependencies[] = drush_pm
+core = 7.x
+files[] = drush_pm_wget.module
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "drush"
+datestamp = "1380571083"
+

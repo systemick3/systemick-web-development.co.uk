@@ -1,0 +1,15 @@
+name = Drush package manager SVN support
+description = Allows drush to manage a site sandbox using SVN.
+package = Drush
+core = 7.x
+dependencies[] = update
+dependencies[] = drush 
+dependencies[] = drush_pm
+files[] = drush_pm_svn.module
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "drush"
+datestamp = "1380571083"
+
