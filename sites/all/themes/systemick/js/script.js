@@ -29,7 +29,7 @@ Drupal.behaviors.systemick = {
 			// Make the first row visible on page load
 			var ids = [];
 
-	  		tabs.find('.tab').each(function(index) {
+	  	tabs.find('.tab').each(function(index) {
 				ids[index] = $(this).attr('id');
 			});
 
@@ -41,6 +41,7 @@ Drupal.behaviors.systemick = {
 				}
 				else {
 					$(this).hide();
+					$(this).siblings('.links').hide();
 				}
 
 				if ($(this).height() > height) {
