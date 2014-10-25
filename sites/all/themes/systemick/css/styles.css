@@ -950,7 +950,7 @@ label {
   /* line 285, ../sass/layouts/_responsive.scss */
   #header #menu-and-social .header__region #block-block-1 #social #twitter {
     float: right;
-    width: 50%;
+    margin-right: 55%;
   }
   /* line 289, ../sass/layouts/_responsive.scss */
   #header #menu-and-social .header__region #block-block-1 #social #facebook {
