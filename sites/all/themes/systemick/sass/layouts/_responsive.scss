@@ -152,7 +152,7 @@ $zen-auto-include-item-base: false;
       padding-left: 0.5em;
       width: 100%;
       header {
-        background-color: $light-blue;
+        background-color: $dark-blue;
         left: -0.5em;
         position: relative;
         width: 100%;
@@ -161,6 +161,9 @@ $zen-auto-include-item-base: false;
           margin-left: 1em;
         }
       }
+      h2 {
+				color: #fff;
+			}
       p {
 				margin: 0;
 			}
