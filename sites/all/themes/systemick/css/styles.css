@@ -803,7 +803,7 @@ label {
   margin-left: 1em;
 }
 /* line 164, ../sass/layouts/_responsive.scss */
-.front .region-frontblocks .views-row h2 {
+.front .region-frontblocks .views-row a {
   color: #fff;
 }
 /* line 167, ../sass/layouts/_responsive.scss */
