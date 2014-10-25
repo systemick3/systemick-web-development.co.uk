@@ -41,7 +41,6 @@ Drupal.behaviors.systemick = {
 				}
 				else {
 					$(this).hide();
-					$(this).siblings('.links').hide();
 				}
 
 				if ($(this).height() > height) {

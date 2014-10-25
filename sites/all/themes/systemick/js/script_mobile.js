@@ -21,7 +21,7 @@
 			var container = $('.view-skills .view-content');
 
 			// Hide the body text of all tabs
-			container.find('.field-name-body').hide();
+			container.find('.field-name-body, .links').hide();
 
 			$('.view-skills .views-row').click(function(event) {
 				$(this).find('.field-name-body').slideToggle();
