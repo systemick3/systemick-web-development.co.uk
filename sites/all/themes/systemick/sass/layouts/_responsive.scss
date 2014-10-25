@@ -179,6 +179,9 @@ $zen-auto-include-item-base: false;
 .not-front {
   #main {
     padding: 1em;
+		article {
+			padding-right: 0.7em;
+		}
   }
 }
 
@@ -190,7 +193,7 @@ $zen-auto-include-item-base: false;
   background: linear-gradient($light-blue, $dark-blue); /* Standard syntax */
   background-color: $light-blue;
   color: #fff;
-	border-top: solid 2px $dark-blue;
+	border-top: solid 4px $dark-blue;
   padding: 0 1em 0 1em;
   h2 {
     color: #fff;
@@ -236,7 +239,7 @@ $zen-auto-include-item-base: false;
   margin-left:auto;
   margin-right: auto;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0;
   #site-info {
     float: left;
     width: 50%;
@@ -434,6 +437,12 @@ $zen-auto-include-item-base: false;
 
 form {
   margin-bottom: 1em;
+}
+
+.form-textarea-wrapper {
+	textarea {
+		max-width: 970px;
+	}
 }
 
 /**
