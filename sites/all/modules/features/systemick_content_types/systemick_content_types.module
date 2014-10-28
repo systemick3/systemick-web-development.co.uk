@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Systemick Content Types feature.
+ */
+
+include_once 'systemick_content_types.features.inc';

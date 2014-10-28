@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Systemick Views feature.
+ */
+
+include_once 'systemick_views.features.inc';
