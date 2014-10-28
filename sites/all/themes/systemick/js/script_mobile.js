@@ -22,12 +22,20 @@
 
 			// Hide the body text of all tabs
 			container.find('.field-name-body, .links').hide();
+      
+      var row = $('.view-skills .views-row');
+      var leftChevron = '<i class="fa fa-chevron-circle-left"></i>';
+      
+      row.find('header').append(leftChevron);
 
-			$('.view-skills .views-row').click(function(event) {
+			row.click(function(event) {
 				$(this).find('.field-name-body').slideToggle();
+        var icon = $(this).find('.fa');
+        icon.toggleClass('fa-chevron-circle-left');
+        icon.toggleClass('fa-chevron-circle-down');
 				return false;
 			});
-	  	}
+	  }
 	};
 
 

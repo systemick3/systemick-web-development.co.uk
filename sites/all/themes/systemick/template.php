@@ -18,6 +18,20 @@ function systemick_css_alter(&$css) {
       break;
     }
   }
+  
+  // Add the Font Awesome CSS
+  $fa = 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css';
+  $css[$fa] = array(
+    'type' => 'external',
+    'weight' => -99.995,
+    'group' => '0',
+    'media' => 'all',
+    'preprocess' => 1,
+    'data' => $fa,
+    'every_page' => 1,
+    'browsers' => array(
+    ),
+  );
 }
 
 /**
