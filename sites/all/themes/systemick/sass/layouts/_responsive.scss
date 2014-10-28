@@ -550,9 +550,21 @@ form {
   
   .front {
     #main {
+      .front-content {
+       .text-wrapper {
+         .text {
+          font-size: 120%; 
+         }
+       }
+      }
       .block {
+        h2 {
+         font-size: 1em;
+         margin-right: 3%;
+        }
         .homepage-tabs {
           .tab {
+            margin-right: 0.1em;
             a {
               font-size: 80%;
               font-weight: bold;
