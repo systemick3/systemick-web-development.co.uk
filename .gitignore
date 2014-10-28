@@ -5,8 +5,8 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-# Ignore all css
-sites/all/themes/css
-
 # Ignore any database dumps
 db
+
+#Ignore sass cache
+sites/all/themes/systemick/.sass-cache
