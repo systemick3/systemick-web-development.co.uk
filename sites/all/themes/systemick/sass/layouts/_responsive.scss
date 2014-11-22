@@ -187,12 +187,41 @@ $zen-auto-include-item-base: false;
 
 .not-front {
   #main {
-    padding: 1em;
-		article {
-			padding-right: 0.7em;
+		padding: 1em;
+		#content {
+			article {
+				padding-right: 0.7em;
+			}
+			
+			ul.tag-cloud {
+				margin-top: 1em;
+				
+				li {
+					background-image: none;
+				}
+			}
 		}
   }
 }
+
+
+
+.page-tagadelic-taxonomy {
+	.page__title {
+		margin-bottom: 0.5em;
+	}
+}
+
+.node-type-skill {
+	img {
+		float: left;
+	}
+	.field-name-field-systemick-tags {
+		clear: left;
+		padding-top: 1em;
+	}
+}
+
 
 /* Styles for #footer - all screen sizes & all pages */
 #footer {
@@ -232,6 +261,10 @@ $zen-auto-include-item-base: false;
   /* Move all the children of #main down to make room. */
   padding-top: 0;
   position: relative;
+	
+	aside {
+		//width: 20%;
+	}
 }
 
 .not-front {
@@ -241,6 +274,16 @@ $zen-auto-include-item-base: false;
     max-width: 990px;
     padding: 1em 0 0 2em;
   }
+  
+	#footer {
+		margin-top: 1em;
+	}
+}
+
+.node-type-skill {
+	img {
+		margin-right: 0.5em;
+	}
 }
 
 #header {
