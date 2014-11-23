@@ -373,6 +373,13 @@ $zen-auto-include-item-base: false;
         }
       }
     }
+    .region-frontblocks {
+			.views-row {
+				header {
+					display: none;
+				}
+			}
+		}
     .block {
       margin-left: auto;
       margin-right: auto;
