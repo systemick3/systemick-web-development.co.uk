@@ -64,6 +64,12 @@ function systemick_preprocess_html(&$variables, $hook) {
   if (drupal_is_front_page()) {
     $variables['head_title'] = 'Open source development in Leeds West Yorkshire using Drupal CMS, Node JS and Angular JS | Systemick';
   }
+  else {
+    $node = menu_get_object();
+    if (!empty($node) && $node->type == 'skill') {
+      $variables['head_title'] = $node->title . ' Development | Systemick';
+    }
+  }
 }
 
 /**
