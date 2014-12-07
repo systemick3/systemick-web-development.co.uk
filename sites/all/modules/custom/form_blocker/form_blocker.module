@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Blocks form on the site to prevent spam.
+ */
+ 
+ 
+function form_blocker_form_alter(&$form, &$form_state, $form_id) {
+	if ($form_id == 'user_register_form') {
+		$form['#access'] = FALSE;
+	}
+}

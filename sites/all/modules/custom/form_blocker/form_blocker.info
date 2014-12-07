@@ -1,0 +1,5 @@
+name = Form Blocker
+description = Blocks form on the site to prevent spam.
+package = Systemick
+core = 7.x
+version = 7.x-1.0
