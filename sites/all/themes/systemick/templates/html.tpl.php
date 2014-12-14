@@ -16,6 +16,8 @@
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
+
+  <meta name="google-site-verification" content="0cnv-Cuv9SLWzRFe0p7NpuTe-cW9s0xlca6Y-dbOg04" />
   
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
