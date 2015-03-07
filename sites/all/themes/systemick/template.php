@@ -62,7 +62,7 @@ function systemick_preprocess_maintenance_page(&$variables, $hook) {
  */
 function systemick_preprocess_html(&$variables, $hook) {
   if (drupal_is_front_page()) {
-    $variables['head_title'] = 'Open source CMS development in Leeds, West Yorkshire using Drupal | Systemick';
+    $variables['head_title'] = 'Open source Drupal CMS development in Leeds, West Yorkshire, UK | Systemick';
   }
   else {
     $node = menu_get_object();
